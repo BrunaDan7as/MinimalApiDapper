@@ -65,8 +65,13 @@
     <Build Include="dbo\StoreProcedures\spCustomer_GetAll.sql" />
     <Build Include="dbo\StoreProcedures\spCustomer_Get.sql" />
     <Build Include="dbo\StoreProcedures\spCustomer_Insert.sql" />
+    <Build Include="dbo\StoreProcedures\spCustomer_Update.sql" />
+    <Build Include="dbo\StoreProcedures\spCustomer_Delete.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ShopDB.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment.sql" />
   </ItemGroup>
 </Project>
